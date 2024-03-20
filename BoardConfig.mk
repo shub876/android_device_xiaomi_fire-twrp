@@ -1,10 +1,3 @@
-#
-# Copyright (C) 2023 The Android Open Source Project
-# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-
 DEVICE_PATH := device/xiaomi/fire
 
 # For building with minimal manifest
@@ -168,3 +161,7 @@ TW_CUSTOM_BATTERY_POS := "790"
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
 TW_INCLUDE_FBE_METADATA_DECRYPT := true
+
+# PBRP Build Flags
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+MAINTAINER := 'Shub'
