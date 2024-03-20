@@ -23,7 +23,7 @@
 /spmfw                       emmc        /dev/block/by-name/spmfw                        flags=display="Spmfw";slotselect;
 /boot_para                   emmc        /dev/block/by-name/boot_para             
 /otp                         emmc        /dev/block/by-name/otp
-/cust                        ext4        /dev/block/by-name/cust                         
+/cust                        ext4        /dev/block/by-name/cust                         flags=display="Cust";backup=1;
 /efuse                       emmc        /dev/block/by-name/efuse               
 /preloader                   emmc        /dev/block/by-name/preloader                    flags=display="Preloader";slotselect;
 /preloader_raw               emmc        /dev/block/by-name/preloader_raw                flags=display="Preloader_Raw";slotselect;

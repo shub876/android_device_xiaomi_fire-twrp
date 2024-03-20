@@ -21,3 +21,4 @@ PRODUCT_NAME := twrp_fire
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi 12
 PRODUCT_MANUFACTURER := xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
